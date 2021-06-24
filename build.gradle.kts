@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "guru.bravit"
-version = "1.0-SNAPSHOT"
+version = "0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -42,8 +42,6 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.1")
     implementation("org.jetbrains.skiko:skiko-jvm-runtime-$target:$version")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.2.0")
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
 
 
